@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "YunPmsHelper/Class/*.{h,m}", "YunPmsHelper/YunPmsHelper.h"
-  s.public_header_files = "YunPmsHelper/YunPmsHelper.h"
+  # s.public_header_files = "YunPmsHelper/YunPmsHelper.h"
 
   # s.public_header_files = "Classes/**/*.h"
 

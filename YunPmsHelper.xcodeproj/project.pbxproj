@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D4D22E56F6AB316C082E6B2 /* YunPmsHlp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4D26DCC5348D5476CFCCB0 /* YunPmsHlp.h */; };
-		1D4D2CFA34069AD11A15FD6F /* YunPmsHlp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D2514C51F9616091C16F5 /* YunPmsHlp.m */; };
 		72CB1FE864BFDE91376946AA /* libPods-YunPmsHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5FD0C3BF2A16BF2FC763DB /* libPods-YunPmsHelper.a */; };
 		AEF62BC21F063537008C9F85 /* YunPmsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF62BC01F063537008C9F85 /* YunPmsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEF62BCD1F0644C6008C9F85 /* YunPmsHlp.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF62BCB1F0644C6008C9F85 /* YunPmsHlp.h */; };
+		AEF62BCE1F0644C6008C9F85 /* YunPmsHlp.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF62BCC1F0644C6008C9F85 /* YunPmsHlp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D4D2514C51F9616091C16F5 /* YunPmsHlp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunPmsHlp.m; sourceTree = "<group>"; };
-		1D4D26DCC5348D5476CFCCB0 /* YunPmsHlp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunPmsHlp.h; sourceTree = "<group>"; };
 		4F5FD0C3BF2A16BF2FC763DB /* libPods-YunPmsHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YunPmsHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EE356D953644B8643D37FC /* Pods-YunPmsHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunPmsHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-YunPmsHelper/Pods-YunPmsHelper.release.xcconfig"; sourceTree = "<group>"; };
 		AEF62BBD1F063537008C9F85 /* YunPmsHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YunPmsHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF62BC01F063537008C9F85 /* YunPmsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YunPmsHelper.h; sourceTree = "<group>"; };
 		AEF62BC11F063537008C9F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF62BCB1F0644C6008C9F85 /* YunPmsHlp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunPmsHlp.h; sourceTree = "<group>"; };
+		AEF62BCC1F0644C6008C9F85 /* YunPmsHlp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunPmsHlp.m; sourceTree = "<group>"; };
 		FC2B07B2D8D0F0E1969E0690 /* Pods-YunPmsHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunPmsHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YunPmsHelper/Pods-YunPmsHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,8 +47,8 @@
 		1D4D2044E6BC64D0C2C060A7 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				1D4D26DCC5348D5476CFCCB0 /* YunPmsHlp.h */,
-				1D4D2514C51F9616091C16F5 /* YunPmsHlp.m */,
+				AEF62BCB1F0644C6008C9F85 /* YunPmsHlp.h */,
+				AEF62BCC1F0644C6008C9F85 /* YunPmsHlp.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF62BC21F063537008C9F85 /* YunPmsHelper.h in Headers */,
-				1D4D22E56F6AB316C082E6B2 /* YunPmsHlp.h in Headers */,
+				AEF62BCD1F0644C6008C9F85 /* YunPmsHlp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D4D2CFA34069AD11A15FD6F /* YunPmsHlp.m in Sources */,
+				AEF62BCE1F0644C6008C9F85 /* YunPmsHlp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
