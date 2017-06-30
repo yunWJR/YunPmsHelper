@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ClusterPrePermissions.h"
+#import <ClusterPrePermissions/ClusterPrePermissions.h>
 
 @interface YunPmsHlp : NSObject {
 
