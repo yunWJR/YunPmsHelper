@@ -1,0 +1,12 @@
+PODS:
+  - ClusterPrePermissions (0.8.1)
+
+DEPENDENCIES:
+  - ClusterPrePermissions
+
+SPEC CHECKSUMS:
+  ClusterPrePermissions: 168c127a658e423062550dd9c56fe26042a58bce
+
+PODFILE CHECKSUM: d4f057c9e406bce1c6485db3916313daa22e4348
+
+COCOAPODS: 1.2.1
