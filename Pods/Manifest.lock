@@ -4,9 +4,13 @@ PODS:
 DEPENDENCIES:
   - ClusterPrePermissions
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ClusterPrePermissions
+
 SPEC CHECKSUMS:
   ClusterPrePermissions: 168c127a658e423062550dd9c56fe26042a58bce
 
-PODFILE CHECKSUM: 97df0a84fd24281e5d34ed4907adfb8dcae95be8
+PODFILE CHECKSUM: 063b4c97f6b65292bed8ce50688dc375ec571e77
 
-COCOAPODS: 1.4.0.beta.1
+COCOAPODS: 1.5.0
